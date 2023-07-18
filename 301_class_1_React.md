@@ -25,6 +25,20 @@ _Put the following things in the order that they happen:_ componentDidMount, ren
 
 _This method is invoked immediately after a component is mounted. If you need to load anything using a network request or initialize the DOM, it should go here. This method is a good place to set up any subscriptions. If you do that, don’t forget to unsubscribe in componentWillUnmount()._
 
+Put the following things in the order that they happen:
+
+### Constructor
+
+### render
+
+### React Updates DOM and refs
+
+### componentsDidMount
+
+### componentsWillUnmount
+
+What does componentDidMount do?
+
 Videos
 
 # React State Vs Props
