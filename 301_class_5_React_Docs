@@ -1,0 +1,52 @@
+Reading
+[React Docs - Thinking in React](https://react.dev/learn/thinking-in-react)
+
+## What is the single responsibility principle and how does it apply to components?
+
+_Programming—use the same techniques for deciding if you should create a new function or object._
+_One such technique is the single responsibility principle, that is, a component should ideally only do one thing. If it ends up growing, it should be decomposed into smaller subcomponents._
+
+## What does it mean to build a ‘static’ version of your application?
+
+_Static version does not have any interactivity._
+
+## Once you have a static application, what do you need to add?
+
+_Interactivity via state._
+What are the three questions you can ask to determine if something is state?
+_Can it be changed_
+\_Cannot be computed
+\_Does not pass from parent
+
+How can you identify where state needs to live?
+For each piece of state in your application:
+
+## Identify every component that renders something based on that state.
+
+_Find their closest common parent component—a component above them all in the hierarchy._
+_Decide where the state should live:_
+_Often, you can put the state directly into their common parent._
+_You can also put the state into some component above their common parent._
+
+_If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common parent component._
+
+## Higher-Order Functions
+
+## What is a “higher-order function”?
+
+_A function that takes one or more functions as arguments,or returns a function as its result, eg map and reduce._
+
+## Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing?
+
+_function takes two values nad makes the first eg a, b ---> a > b._
+
+Explain how either map or reduce operates, with regards to higher-order functions.
+const newArray = array.map(myFunction)
+funciton myFunction (num) {
+return num * 10;
+}
+myFunction is an argument of map function.
+eg const numbers = [1, 2, 3, 4, 5]
+const newNumbers = numbers.map((a) => a*10)
+
+_result is a newNumbers array = [10, 20, 30, 40, 50]_
