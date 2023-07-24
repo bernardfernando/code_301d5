@@ -5,4 +5,4 @@ Table of Contents 0.[Prep](./301_1_prep_1.md)
 3. [React & Forms](./301_3_React%20&%20Forms)
 4. React, arrow-funcitons, props and state
 5. [Stage fright](./Stage%20Fright)
-   [Retrospective](./Retrospective)
+6. [Retrospective](./Retrospective)
