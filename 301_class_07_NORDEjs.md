@@ -48,3 +48,5 @@ Bookmark and Review
 API Docs
 [Axios docs](https://axios-http.com/docs/intro)
 MDN async and await
+
+[Further notes](./301_class_07_NORDEjs%20add_on.md)
